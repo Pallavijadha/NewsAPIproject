@@ -6,7 +6,7 @@ import LoadingBar from 'react-top-loading-bar';
 import { useState } from 'react'; // Import useState for functional component state management
 
 function App() {
-  const apiKey = "69594e73b1a546c78c1c8e687086bd8e";
+  const apiKey = "";//ADDYOUR API KEY
   
   // State for managing progress bar
   const [progress, setProgress] = useState(0);
