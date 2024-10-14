@@ -68,3 +68,57 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+##News API Application
+This project is a React-based news web application that fetches real-time news headlines using the NewsAPI and displays them across various categories such as business, entertainment, health, science, sports, and technology.
+
+##Features
+Fetches live news data from the NewsAPI.
+Displays categorized news (Business, Entertainment, Health, Science, Sports, Technology).
+Responsive design with Bootstrap for easy navigation.
+External links to view the full article.
+##Technologies Used
+React
+Bootstrap
+NewsAPI
+Getting Started
+##To get a local copy up and running follow these steps.
+
+Prerequisites
+Node.js and npm must be installed.
+A free API key from NewsAPI is required.
+Installation
+Clone the repository:
+git clone https://github.com/your-username/news-api-app.git
+cd news-api-app
+Install the required dependencies:
+npm install
+####IN APP.js 
+api key="Add your API key"
+Start the development server:
+
+
+npm start
+The app will run in development mode on http://localhost:3000.
+
+Running the Tests
+To run tests, execute:
+
+
+npm test
+Building for Production
+To create a production build, run:
+
+npm run build
+This will create an optimized production build in the build/ folder.
+
+Usage
+Once the application is running:
+
+Navigate through different news categories using the navbar.
+Click on the headlines to view the full article in a new tab.
+Environment Variables
+Ensure you create a .env file to store your API key:
+
+REACT_APP_NEWS_API=your_news_api_key_here
+Important: Never commit your .env file or API keys to public repositories for security reasons. Add .env to .gitignore.
